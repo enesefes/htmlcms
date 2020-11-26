@@ -1,0 +1,13 @@
+{{#section offices}}
+  <h1>{{name}}</h1>
+
+  <ul class="info">
+    <li>{{address_1}}</li>
+    {{#if address_2}}
+      <li>{{address_2}}</li>
+    {{/if}}
+    <li>{{city}}, {{state}} {{postal_code}}</li>
+  </ul>
+
+  {{description type=html}}
+{{/section}}
